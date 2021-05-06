@@ -1,0 +1,238 @@
+@media screen and (min-width: 900px) {
+  .title {
+    line-height: 3.5rem;
+  }
+
+  .header--company-name {
+    font-size: -webkit-xxx-large;
+    margin-inline-start: 4rem;
+    margin-block-start: 4rem;
+  }
+
+  .header--menu {
+    display: flex;
+    align-items: center;
+    margin-block-start: 1.5rem;
+    margin-inline-end: 1.5rem;
+  }
+
+  .header--menu--link{
+    padding-inline-end: 3.5rem;
+    font-size: 0.9rem;
+  }
+
+  .section-hero {
+    background-image: url(./images/bg-curvy-desktop.svg);
+  }
+
+  .wrapper-img {
+    margin-block-end: 1.5rem;
+  } 
+  .section-hero--icon {
+    width: 70%;
+    margin: auto;
+  }
+
+  .section-hero--title {
+    font-size: 2.40rem;
+    max-inline-size: 62%;
+    margin-block-end: 2rem;
+  }
+  
+  .section-hero--subtitle {
+    width: 43%;
+    font-size: 1.18rem;
+  }
+
+  .section-hero--button {
+    margin-block-end: 4.5rem;
+    width: 20%;
+  }
+
+  .section-services--content {
+    grid-template-columns: 1fr 1fr;
+    margin-inline: 12rem;
+  }
+
+  .section-services--card-service {
+    width: 72%;
+  }
+
+  .section-services-subtitle-service {
+    font-size: 0.8rem;
+  }
+  .section-services--icon-one {
+    width: 24%;
+  }
+
+  .section-services--icon-two {
+    width: 19%;
+  }
+  
+  .section-services--icon-three {
+    width: 22%;
+  }
+
+  .section-services--icon-four {
+    width: 25%;
+  }
+
+  .section-team {
+    margin-block-end: 5.5rem;
+}
+
+  .section-team--content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .section-team--icon {
+  margin-left: 7rem;
+  }
+  .section-team--description {
+  position: relative;
+  top: 5.5rem;
+  padding-inline-start: 1.5rem;
+  }
+
+  .section-team--title {
+    width: 53%;
+    font-size: 2.5rem;
+  }
+
+  .section-team--link-text {
+    font-size: 0.9rem;
+}
+
+.section-team--link {
+  width: 23%;
+}
+
+  .section-team--text { 
+    width: 80%;
+    font-size: 0.90rem;
+  }
+  
+  .section-testimonials--content {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2.5rem;
+    padding-inline: 8.3rem;
+    padding-block-end: 0.5rem;
+  
+  }
+
+  .section-testimonials--img-icon {
+    width: 3.5%;
+    top: 3rem;
+    left: 8rem;
+  }
+  
+  .section-testimonials--content-message {
+    padding-block-start: 1.5rem;
+    padding-inline: 1.5rem;
+    padding-block-end: 0.5rem;
+    font-size: 0.85rem;
+  }
+
+  .section-contact--form-input {
+    width: 32rem;
+  }
+  
+  .section-contact--content {
+    width: 60%;
+    top: -10rem;
+    margin-inline: 15rem;
+  }
+   
+  .section-contact--title {
+    font-size: 1.9rem;
+    padding-block-start: 1.1rem;
+    margin-block-end: 1.2rem;
+  } 
+  
+   .section-contact--subtitle {
+    width: 70%;
+    margin-block-end: 2rem;
+    font-size: 0.8rem;
+  }  
+  
+  .section-contact--form-input {
+    width: 26rem;
+    height: 2.8rem;
+    margin-block-end: 0.5rem;
+  }
+  
+  .section-contact--form-button{
+    width: 12.5rem;
+    height: 2.8rem;
+  }
+  
+  .section-footer { 
+    height: 480px;
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr 1fr 1.5fr;
+  }
+  
+  .section-footer--company-name {
+    padding-block-start: 13.5rem;
+    padding-inline-start: 6.5rem;
+  }
+  
+  
+  .section-footer--company-direction {
+    padding-inline-start: 9rem;
+    font-size: 0.95rem;
+    padding-inline-end: 0;
+  }
+  
+  .section-footer--direction-icon {
+    left: 6.5rem;
+    top: 1.5rem;
+  }
+  
+ 
+  .section-footer--company-phone {
+    padding-block-start: 18.4rem;
+    padding-inline-start: 4rem;
+    color: white;
+  }
+  
+  .section-footer--company-phone-icon {
+    top: 19.3rem;
+    left: 4.2rem;
+  }
+  
+
+
+  .section-footer--company-phone-text {
+    padding-block-end: 0.5rem;
+    padding-inline-start: 3rem;
+    font-size: 0.8rem;
+  }
+  
+  .section-footer--company-email-icon {
+    top: 21.9rem;
+    left: 4.1rem;
+  }
+
+  .section-footer--company-email-text {
+    font-size: 0.8rem;
+    padding-inline-start: 3rem;
+  }
+  
+  .section-footer--menu{
+    padding-block-start: 18rem;
+    padding-inline-start: 3rem;
+  }
+  
+  .section-footer--menu-two{
+    padding-block-start: 18.4rem;
+    padding-inline-start: 1.6rem;
+    font-size: 15px;
+  }
+  
+  .section-footer--redes-sociales {
+    padding-block-start: 13rem;
+    margin-inline-start: 2rem;
+  }
+
+}

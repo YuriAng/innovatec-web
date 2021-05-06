@@ -1,0 +1,406 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #181f2a;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+.header {
+  background:  #1c2230;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: white;
+  line-height: 2.2rem;
+}
+
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+}
+
+.button {
+  background: #339ecc;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.header--company-name {
+  font-size: 1.5rem;
+  margin-inline-start: 1rem;
+  margin-block-start: 1rem;
+}
+
+.header--menu {
+  margin-block-start: 1.8rem;
+  margin-inline-end: 0.5rem;
+}
+
+.header--menu--link{
+  color: white;
+  text-decoration: none;
+  padding-inline-end: 0.5rem;
+  font-size: 0.7rem;
+}
+
+.header--menu--link:hover {
+  text-decoration: underline;
+}
+
+.section-hero {
+  background: #1c2230;
+  background-image: url(./images/bg-curvy-mobile.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.section-hero--content {
+  padding-block-start: 2rem;
+  padding-block-end: 1.5rem;
+  text-align: center;
+}
+
+.wrapper-img {
+  height: 100%;
+  width: 100%;
+  
+} 
+
+.section-hero--icon {
+  width: 80%;
+}
+
+.section-hero--title {
+  margin: auto;
+  font-size: 1.5rem;
+  width: 80%;
+  margin-block-end: 1rem;
+}
+
+.section-hero--subtitle {
+  color: white;
+  width: 83%;
+  margin: auto;
+  font-size: 0.95rem;
+  margin-block-end: 2rem;
+}
+
+
+.section-hero--button {
+  width: 75%;
+  height: 3.1rem;
+  border-radius: 50px;
+  margin-block-end: 3rem;
+}
+
+.section-hero--button:hover {
+  background: #59c2d3;
+}
+
+.section-services--content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  text-align: center;
+  margin: auto;
+  padding-block: 3rem 3rem;
+}
+
+.section-services--card-service {
+  width: 83%;
+  margin: auto;
+  margin-block-end: 4.4rem
+}
+
+.section-services--icon-one {
+  width: 22%;
+  padding-block-end: 0.4rem
+}
+
+.section-services--icon-two {
+  width: 18%;
+  padding-block: 0.5rem;
+}
+
+.section-services--icon-three {
+  width: 22%;
+  padding-block-start: 0.5rem;
+  padding-block-end: 1rem;
+}
+
+.section-services--icon-four {
+  width: 23%;
+  padding-block: 1rem;
+}
+
+.section-services--title-service {
+  color: white;
+  margin-bottom: -0.30rem;
+  font-size: 1.2rem;
+}
+
+.section-services-subtitle-service {
+  color: white;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+
+.section-team {
+  margin-block-start: 2rem;
+  margin-block-end: 10rem;
+}
+
+.section-team--icon {
+  width: 83%;
+  margin: 0;
+  margin-left: 2rem;
+}
+
+.section-team--description {
+  position: relative;
+  top: 2rem;
+}
+
+.section-team--link {
+  border-block-end: solid 2px #59c2d3;
+  width: 42%;
+  margin-inline-start: 2rem;
+  padding-block-end: 0.5rem;
+}
+
+.section-team--link-text {
+  color: #59c2d3;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.section-team--link-icon {
+  display: inline-block;
+}
+
+.section-team--title {
+  color: white;
+  font-size: 1rem;
+  padding-inline-start: 1.5rem;
+}
+
+.section-team--text { 
+  width: 91%;
+  font-size: 0.8rem;
+  color: white;
+  padding-inline-start: 1.5rem;
+}
+
+.section-testimonials {
+  margin-block-end: 21.5rem;
+}
+
+.section-testimonials--content {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-gap: 1.5rem;
+  padding: 2rem;
+  padding-inline: 3.3rem;
+}
+.section-testimonials--img-icon {
+  width: 7.5%;
+  position: relative;
+  top: 2.7rem;
+  left: 2.4rem;
+}
+
+
+.section-testimonials--content-message {
+  background: #21293c;
+  color: white;
+  padding-inline: 1.4rem;
+  padding-block: 1.4rem;
+  position: relative;
+  border-radius: 3px;
+  font-size: 0.65rem;
+}
+
+.section-testimonials--img {
+  display: inline-block;
+  padding: 0.8rem;
+}
+
+.section-testimonials--img-profile {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 150px;
+}
+
+.section-testimonials--profile {
+  display: inline-block;
+}
+
+.section-testimonials--name {
+  font-weight: bold;
+  font-size: 0.7rem;
+  padding-block-end: 0.2rem;
+  margin: 0;
+}
+
+.section-testimonials--position {
+  font-size: 0.6rem;
+  margin: 0;
+}
+
+.section-contact {
+  position: relative;
+}
+
+.section-contact--content {
+  position: absolute;
+  width: 88%;
+  top: -13rem;
+  margin-inline: 1.2rem;
+  background: #1c2431;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px #0b1523;
+}
+
+.section-contact--title {
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  padding-block-start: 2rem;
+  margin-block-end: 1.2rem;
+}
+
+.section-contact--subtitle {
+  color: white;
+  width: 84%;
+  margin: auto;
+  text-align: center;
+  margin-block-end: 3rem;
+}
+
+.section-contact--button {
+  text-align: center;
+
+}
+
+.section-contact--form{
+  text-align: center;
+  margin-block-end: 2rem;
+}
+
+.section-contact--form-input {
+  width: 69%;
+  height: 3rem;
+  border-radius: 25px;
+  border: none;
+  padding-inline-start: 2rem;
+  margin-block-end: 1.5rem;
+}
+
+.section-contact--form-button{
+  width: 75%;
+  height: 3rem;
+  border-radius: 25px;
+}
+
+.section-contact--form-button:hover {
+  background: #59c2d3;
+}
+
+.section-footer {
+  background: #0b1523; 
+}
+
+.section-footer--company-name {
+  margin: 0;
+  font-size: -webkit-xxx-large;
+  padding-block-start: 15rem;
+  padding-block-end: 2rem;
+  padding-inline-start: 2.5rem;
+}
+
+.section-footer--company {
+  position: relative;
+}
+
+.section-footer--company-direction {
+  padding-inline-start: 4.5rem;
+  padding-inline-end: 2rem;
+  margin: 0;
+  font-size: 1rem;
+  color: white;
+}
+
+.section-footer--direction-icon {
+  position: relative;
+  margin: 0;
+  top: 1.5rem;
+  left: 2rem;
+}
+
+
+.section-footer--company-phone {
+  padding-block-start: 1rem;
+  position: relative;
+  padding-inline-start: 4.5rem;
+}
+
+.section-footer--company-phone-icon {
+  position: absolute;
+  margin: 0;
+  top: 1.7rem;
+  left: 2rem;
+  width: 1.2rem;
+}
+
+.section-footer--company-phone{
+  color: white;
+}
+
+.section-footer--company-phone-text {
+  padding-block-end: 1rem;
+}
+
+.section-footer--company-email {
+  color: white;
+}
+
+.section-footer--company-email-icon {
+  position: absolute;
+  margin: 0;
+  top: 5.1rem;
+  left: 2rem;
+  width: 1.3rem;
+}
+
+.section-footer--menu{
+  padding-block-start: 2.4rem;
+  padding-inline-start: 2rem;
+  font-size: 1rem;
+  color: white;
+}
+
+.section-footer--menu-two{
+  padding-block-start: 1.3rem;
+  padding-inline-start: 2rem;
+  color: white;
+  font-size: 1rem;
+}
+
+.section-footer--redes-sociales {
+  display: flex;
+  margin-inline-start: 7rem;
+  padding-block-end: 3rem;
+}
+
+.section-footer-icon {
+  width: 2rem;
+  padding-inline-end: 1rem;
+}
+
